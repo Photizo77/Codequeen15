@@ -1,19 +1,35 @@
 <!DOCTYPE html> 
 <html lang = "en">
     <head>
+        <!--adding meta characters-->
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width= device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="style.css">
         <title>My first website</title>
+        <!internal css>
+        <style>
+            h2{
+                color: orange;
+            }
+            li{
+                font-weight: bold;
+
+            }
+        </style>
     </head>
     <body>
-        <h1 style= "color : blue;" >HELLO WORLD!</h1>
+        <--!inline css-->
+        <h1 style= "color : blue; text-align : center" >HELLO WORLD!</h1>
         <h2>Gash! l am wondefully made</h2>
         <h3>Uuuuwhuuuh! l am so pwettie!</h3>
         <h4>Ahhhhhhh! I am anointed</h4>
         <h5>Holy smokes! l am shining</h5>
         <h6>Yikesss! l am it!</h6>
         
-        <p style = "background-color: rgb(94, 135, 94); padding: 10px; border-radius: 5px;"> I am a success, Lines have fallen unto me in pleasant places. My mind is fruitful. My heart is glad. My days are great. My body is a work of art. Skin hydrated</p>
+        <p style = "background-color: lightgreen ; padding: 10px; border-radius: 5px;"> I am a success, Lines have fallen unto me in pleasant places. My mind is fruitful. My heart is glad. My days are great. My body is a work of art. Skin hydrated</p>
+        <h3>My Hobbies</h3>
         <ul>
-            <h3>My Hobbies</h3>
+            
             <li>Basketball</li>
             <li>Sleeping</li>
             <li>Beauty Treatments</li>
@@ -22,8 +38,9 @@
 
         </ul>
 
+         <h3>Basic Skin Care Package</h3>
          <ol>
-            <h3>Basic Skin Care Package</h3>
+        
             <li>Sunscreen</li>
             <li>Serum</li>
             <li>Toner</li>
@@ -34,8 +51,10 @@
         <img src = "images/photo.jpeg" alt="Basic Skincare Guide" width = "200" height ="400">
         <br>
         <strong>My Social Media Handles</strong>
+        <br>
         <a href = "https://www.facebook.com/profile.php?id=61587430560524" target="_self">View my Facebook</a>
         <br>
+    <strong>Table</strong>
     <table border="6">
         <tr>
             <th>Name</th>
@@ -43,6 +62,7 @@
             <th>Age</th>
             <th>Address</th>
             <th>Gender</th>
+            <th>Subjects</th>
         </tr>
         <tr>
             <td>Atare</td>
@@ -50,6 +70,12 @@
             <td>25</td>
             <td>Kampala</td>
             <td>Female</td>
+            <td>
+                <ol>
+                    <li>Mathematics</li>
+                    <li>English</li>
+                </ol>
+            </td>
         </tr>
         <tr>
             <td>Glory</td>
@@ -57,6 +83,12 @@
             <td>26</td>
             <td>Luxembourg</td>
             <td>Female</td>
+            <td>
+                <ol>
+                    <li>Literature</li>
+                    <li>Physics</li>
+                </ol>
+            </td>
         </tr>
         <tr>
             <td>Atimango</td>
@@ -64,6 +96,12 @@
             <td>27</td>
             <td>Gulu</td>
             <td>Female</td>
+            <td>
+                <ol>
+                    <li>Mathematics</li>
+                    <li>Science</li>
+                </ol>
+            </td>
         </tr>
     </table>
     <br>
@@ -78,7 +116,7 @@
         <input type = "text" placeholder="Enter your Last Name">
         <br>
         <label>Date of Birth</label>
-        <input type = "datetime" placeholder="Enter your date of birth">
+        <input type = "date"
         <br>
         <label>Gender</label>
         <input type = "radio" name="Gender"> Female
